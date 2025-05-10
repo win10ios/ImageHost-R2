@@ -1,5 +1,5 @@
 async function fetchConfig() {
-  const res = await fetch("https://hm3slala.workers.dev/");
+  const res = await fetch("https://tupian.ioi.ip-ddns.com/config");
   if (!res.ok) throw new Error("获取配置失败");
   return await res.json();
 }
